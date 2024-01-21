@@ -1,0 +1,12 @@
+*{
+    font-family: 'Roboto';
+    margin: 0px;
+}
+
+#body{
+    padding-top: 80px;
+    background-color: rgb(15, 15, 15);
+    height: 1000px;
+}
+
+

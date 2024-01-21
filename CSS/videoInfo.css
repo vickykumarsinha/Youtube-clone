@@ -1,0 +1,71 @@
+#mainGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 1425px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+#vid-preview{
+    cursor: pointer;
+}
+
+#thumb-time{
+    position: relative;
+}
+
+#thumb1{
+    border-radius: 15px;
+    width: 100%;
+}
+
+#vid-duration{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    padding: 3px;
+    opacity: 80%;
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+
+#thumbnail-bottom{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+#profile-photo{
+    width: 45px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#dp{
+    width: 40px;
+    border-radius: 100px;
+}
+
+#vid-title{
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#stats{
+    
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: rgb(170, 170, 170);
+    font-size: 12px;
+    font-family: 'Roboto';
+
+}

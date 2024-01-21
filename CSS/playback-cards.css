@@ -1,0 +1,118 @@
+#main{
+    display: flex;
+    flex-direction: row;    
+}
+
+#playback-cards{
+    display: inline-block;
+    margin-top: 80px;
+    margin-right: 80px;
+    height: 100%;
+    
+}
+
+#options{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding-left: 10px;
+    top: 80px;
+    left: 1160px;
+    height: 55px;
+}
+
+#allbox-selected{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    width: min-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+#allbox{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    width: min-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+
+#allbox:hover{
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    width: min-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;;
+    background-color: rgb(63, 63, 63);
+}
+
+
+
+#side-preview{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 450px;
+    height: 100px;
+}
+
+#thumb-time{
+    position: relative;
+}
+
+#thumb1{
+    border-radius: 10px;
+    height: 100px;
+}
+
+#vid-duration{
+    position: absolute;
+    left: 135px;
+    bottom: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    padding: 3px;
+    opacity: 80%;
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+
+#vid-title{
+    margin-left: 5px;
+    padding-top: 5px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+
+#stats{
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: rgb(170, 170, 170);
+    font-size: 12px;
+    font-family: 'Roboto';
+
+}
